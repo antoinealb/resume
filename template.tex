@@ -1,13 +1,10 @@
-\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper, sans]{moderncv}
 
-% moderncv themes
-\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+\moderncvstyle{casual}  % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}
+\nopagenumbers{}
 
-% character encoding
-\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[utf8]{inputenc}
 
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
@@ -15,13 +12,13 @@
 % personal data
 \firstname{Antoine}
 \familyname{Albertelli}
-\title{Etudiant en Microtechnique}                          % optional, remove / comment the line if not wanted
-\address{Ch. de l'Auverney 9}{1814 La Tour-de-Peilz}    % optional, remove / comment the line if not wanted
-\mobile{079~384~38~62}                     % optional, remove / comment the line if not wanted
-\phone{021~944~45~44}                      % optional, remove / comment the line if not wanted
-\email{antoine.albertelli@gmail.com}          % optional, remove / comment the line if not wanted
-%\homepage{www.bitbucket.org}                    % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{neko}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\title{Etudiant EPFL}
+\address{Ch. de l'Auverney 9}{1814 La Tour-de-Peilz}
+\mobile{079~384~38~62}
+\phone{021~944~45~44}
+\email{antoine.albertelli@gmail.com}
+\homepage{www.bitbucket.org/antoinealb}
+\photo[64pt][0.4pt]{neko}
 
 %----------------------------------------------------------------------------------
 %            content
@@ -30,12 +27,13 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\section{Education}
+\section{Formation}
 \cventry{2007--2010}{Maturité fédérale}{Gymnase de Burier}{La Tour-de-Peilz}{}{Option application des maths et physique}
 \cventry{2010--Actuel}{Bachelor}{\textsc{epfl}}{Lausanne}{}{}
 
 \section{Expérience}
 \cventry{2011--2012}{Assistant-étudiant}{EPFL}{Lausanne}{}{Assistant au cours d'introduction à la programmation du Pr. Ronan Boulic}
+\cventry{2011-Actuel}{Assistant}{Bricobot}{Lausanne}{}{Assistant du cours d'introduction à Arduino donné par le Pr. Nicoud, Ex-professeur EPFL}
 
 \cventry{2012}{Logisticien}{Adecco}{Vevey}{}{Gestion d'un entrepôt, réception et envois de marchandises}
 
@@ -45,12 +43,11 @@
 
 \section{Outils informatiques}
 \cvitem{Outils familiers}{\textsc{c}, \textsc{gcc} Mercurial, Linux}
-\cvitem{Outils connus}{Python, Solidworks, \LaTeX, Open\textsc{gl}}
+\cvitem{Outils connus}{Python, Solidworks, \LaTeX,\textsc{matlab}, OpenGL}
 
 \section{Intérêts}
-\cvitem{Robotique}{Participation au concours de robotique Eurobot au sein du \textit{Club vaudois de robotique autonome}, basé à Renens. Responsabilités : Développement du framework de régulation et de path planning, code review \& quality control.}
-\cvitem{Airsoft}{Accumulation de tout un tas de gear inutile mais trop porn, vous pouvez pas test.}
-\cvitem{Jeu de rôle}{Description}
+\cvitem{Robotique}{Participation au concours de robotique Eurobot depuis 2007. Mes responsabilités incluent le développement de notre framework interne en \textsc{c}, comprenant entres autres des librairies d'asservissement, de positionnement ainsi que des drivers bas niveaux. Je m'occupe également de la coordination au sein de l'équipe de développement, notamment des merges et de la quality assurance.}
+\cvitem{Jeu de rôle}{Membre de l'association de jeu de rôle Dimension Dé à Montreux depuis 2008.}
 
 
 % For letter example, see revision 1 of repository.
