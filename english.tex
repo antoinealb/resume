@@ -1,0 +1,59 @@
+\documentclass[11pt,a4paper, sans]{moderncv}
+
+\moderncvstyle{classic}  % 'casual', 'classic', 'oldstyle' or 'banking'
+\moderncvcolor{blue}
+\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\firstname{Antoine}
+\familyname{Albertelli}
+\title{EPFL Student}
+\address{Ch. de l'Auverney 9}{1814 La Tour-de-Peilz}
+\mobile{079~384~38~62}
+\phone{021~944~45~44}
+\email{antoine.albertelli@epfl.ch}
+\homepage{www.bitbucket.org/antoinealb}
+%\photo[64pt][0.4pt]{neko}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2010--Current}{BSc in Microengineering}{EPFL}{Lausanne}{}{}
+\cventry{2007--2010}{Matura}{Gymnase de Burier}{La Tour-de-Peilz}{}{}
+
+\section{Experience}
+
+\cventry{2008--Current}{Embedded systems programmer}{CVRA}{Renens}{}{Took part in the Eurobot robotics contest. My achievements during this contests were :
+    \begin{itemize}
+        \item{2009 : Control of a pneumatic system using an Arduino programmed in C.} 
+        \item{2010 : Electrical and software developpement of a motor control board based on an Atmel AVR.} 
+        \item{2011 : Port of the existing codebase from AVR to Altera's NIOS2 running in an FPGA.} 
+        \item{2012 : Maintenance and support of existing code.}
+        \item{2013 : Project management and documentation of the existing code base.}
+    \end{itemize}}
+\cventry{2012}{Warehouse work}{Adecco}{Vevey}{}{Warehouse management, including reception and sending of goods.}
+\cventry{2011--2012}{Student assistant}{EPFL}{Lausanne}{}{Student assistant for the \textit{Computer-based engineering} course by R. Boulic}
+
+\section{Hobbys}
+\cvitem{Roleplaying games}{Member of a roleplaying game club since 2008.}
+
+\section{Languages}
+\cvitemwithcomment{French}{First language}{}
+\cvitemwithcomment{English}{Fluent}{}
+
+\section{Outils informatiques}
+\cvitem{Proficient}{\textsc{c}, Mercurial, Linux}
+\cvitem{Known}{Python, Solidworks, MATLAB, \LaTeX}
+
+\end{document}
+
