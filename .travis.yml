@@ -1,10 +1,9 @@
 sudo: false
 
 script:
-    - pdflatex english.tex
+    - pdflatex -interaction=nonstopmode english.tex
 
 addons:
     apt:
         packages:
-            - texlive-latex-base
-            - texlive-latex-extra
+            - texlive
