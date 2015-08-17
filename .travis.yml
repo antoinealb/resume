@@ -1,0 +1,10 @@
+sudo: false
+
+script:
+    - pdflatex english.tex
+
+addons:
+    apt:
+        packages:
+            - texlive-latex-base
+            - texlive-latex-extra
