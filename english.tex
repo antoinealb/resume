@@ -1,52 +1,46 @@
-\documentclass[11pt,a4paper, sans]{moderncv}
+\documentclass[11pt,a4paper,sans]{moderncv}
 
 \moderncvstyle{classic}  % 'casual', 'classic', 'oldstyle' or 'banking'
-\moderncvcolor{blue}
+\moderncvcolor{red}
 \nopagenumbers{}
 
 \usepackage[utf8]{inputenc}
-
-% adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage{fullpage}
 
 % personal data
 \firstname{Antoine}
 \familyname{Albertelli}
-%\title{EPFL Student}
-\address{Ch. de l'Auverney 9}{1814 La Tour-de-Peilz}
-\mobile{079~384~38~62}
-\phone{021~944~45~44}
+\title{Software Engineer}
+\address{Binzallee 6}{8055 Zürich, Switzerland}
+\phone{+41~79~384~38~62}
 \email{antoine@antoinealb.net}
 \homepage{antoinealb.net}
-%\photo[64pt][0.4pt]{neko}
+\extrainfo{Swiss national}
+%\photo[64pt]{photo}
 
 \begin{document}
 \makecvtitle
 
 \section{Education}
-\cventry{2016--current}{MSc in Microengineering}{EPFL}{Lausanne}{}{}
-\cventry{2010--2014}{BSc in Microengineering}{EPFL}{Lausanne}{}{}
+\cventry{2016--2018}{MSc in Microengineering}{EPFL}{Lausanne}{GPA: 5.27 / 6}{Master thesis: \emph{R3P2: A Replicated Request Response Pair Protocol} with Pr. E. Bugnion from the Data Center Systems Laboratory.}
+\cventry{2010--2014}{BSc in Microengineering}{EPFL}{Lausanne}{GPA: 4.70 / 6}{}
 
 \section{Employment history}
 
-\cventry{2015--Current}{Founder, Software Engineer}{WISE Robotics}{Lausanne}{}{
+\cventry{2019--current}{Software Engineer, Site Reliability Engineering}{Google}{Zürich}{}{
+    SRE is what you get when you treat operations as if it’s a software problem.
+    Our mission is to protect, provide for, and progress the software and systems behind all of Google’s public services.
+    I am in a team working on mobile communication products (SMS \& RCS), providing connectivity to several hundreds of millions of Android users.
+}
+
+\cventry{2015--2019}{Founder, Software Engineer}{WISE Robotics}{Lausanne}{}{
     Co-founded an engineering consultancy.
     We develop custom solutions in the fields of robotics and embedded systems (e.g. Internet of Things appliances).
     My main role is system design and software engineering, both on low power systems (micro-controllers) in C/C++ and destkop/servers applications in Python.
 }
-\cventry{2015}{Civil service}{CRYOS Lab, EPFL}{Lausanne}{}{
-    Wrote a data analysis pipeline for manipulating large weather datasets using Python for processing and SQLite for intermediate results storage.
-    Assisted with the setup of experimental weather measurement stations in various areas.
-}
-\cventry{2014--2015}{Civil service}{Lemaitre Lab, EPFL}{Lausanne}{}{
-    Helped with research in social psychology, leading to the publication of a book and of an article (to be published).
-}
-\cventry{2013--2014}{Warehouse work}{La Poste}{Eclépens}{}{}
-\cventry{2011--2014}{Student assistant}{EPFL}{Lausanne}{}{Student assistant for various programming courses.}
-\cventry{2012}{Warehouse work}{Adecco}{Vevey}{}{}
 
 \section{Activities}
-\cventry{2008--Current}{Robotics contest}{}{}{}{
+\cventry{2008--2022}{Robotics contest}{}{}{}{
     I took part in the Eurobot contest with my team and we were qualified to take part in the world finals in 2009, 2013 and 2014.
     We also won the Swiss contest and the technical award in 2014.\\
     Some of the technical challenges I worked on were the port of existing code to a new RTOS running on an FPGA, as well as the integration of an embedded TCP/IP stack.
@@ -61,14 +55,14 @@
 \section{Languages}
 \cvlanguage{French}{Native speaker}{}
 \cvlanguage{English}{Fluent}{}
-\cvlanguage{German}{Intermediate}{}
+\cvlanguage{German}{Active knowledge}{}
 
-\section{Computer tools}
-\cvitem{Proficient}{C/C++, Git, Mercurial, Linux, Python, Office, Matlab, Docker, SaltStack}
-\cvitem{Known}{SolidWorks, KiCAD, OpenGL, AVR Assembly}
+\section{Skills}
+\cvitem{Programming languages}{C, C++, Python, Go}
+\cvitem{Software development}{Git, Bazel, Jenkins, DevOps methods}
+\cvitem{Operations}{Linux, Docker, SaltStack, Google Cloud Platform, SRE}
 
 \section{Work Interests}
-\cvitem{Engineering}{Control systems, Manufacturing technologies, Process engineering}
-\cvitem{Software}{High reliability software, Test Driven Development, Continuous Delivery, Embedded software}
+\cvitem{Software}{High reliability software, Test Driven Development, Continuous Delivery, Embedded software, Automation}
 \end{document}
 
